@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slo>
+   <metadata>
+      <row>
+         <version>12.2.0</version>
+      </row>
+   </metadata>
+   <general_attributes>
+      <row>
+         <minimum_ae_version>12.0</minimum_ae_version>
+         <is_inactive>1</is_inactive>
+         <last_runtimes>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</last_runtimes>
+         <name>SLO.NEW.1</name>
+         <type>SLO</type>
+         <versioning_id>-316732218</versioning_id>
+      </row>
+   </general_attributes>
+   <slo_attributes>
+      <row>
+         <consider_latest_end>1</consider_latest_end>
+         <consider_mrt>1</consider_mrt>
+         <consider_srt>1</consider_srt>
+         <consider_status>1</consider_status>
+         <consider_latest_start>1</consider_latest_start>
+         <execute_on_violation>1</execute_on_violation>
+         <expect_status>ANY_OK</expect_status>
+         <latest_end_time>2359</latest_end_time>
+         <latest_start_time>0000</latest_start_time>
+         <monitor_from>0000</monitor_from>
+         <monitor_to>0000</monitor_to>
+         <alarm_on_violation>ALERT</alarm_on_violation>
+         <weekdays>1234567</weekdays>
+         <service_query><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<queryTreeNode groupOperator="ALL">
+    <node>
+        <criterion>
+            <attributeValue>OBJECT_NAME</attributeValue>
+            <operator>EQUALS</operator>
+            <value>JIM.CRITICASL.FLOW</value>
+        </criterion>
+    </node>
+</queryTreeNode>
+]]></service_query>
+      </row>
+   </slo_attributes>
+</slo>
