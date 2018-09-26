@@ -14,11 +14,11 @@
          <last_runtimes>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</last_runtimes>
          <max_parallel_action>1</max_parallel_action>
          <mrt_time>000000</mrt_time>
-         <name>JOBS.WIN.NEW.1</name>
+         <name>JOBS.WIN.NEW.JIMBO</name>
          <type>JOBS</type>
          <inherit_output_filter>N</inherit_output_filter>
-         <queue>CLIENT_QUEUE</queue>
-         <description>GITHUB job</description>
+         <queue>QUEUE_JIM</queue>
+         <description>GITHUB job - changed name & Queue in GitHub</description>
          <versioning_id>-1706450110</versioning_id>
       </row>
    </general_attributes>
