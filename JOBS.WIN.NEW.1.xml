@@ -18,7 +18,7 @@
          <type>JOBS</type>
          <inherit_output_filter>N</inherit_output_filter>
          <queue>QUEUE_JIM</queue>
-         <description>GITHUB job - changed name & Queue in GitHub</description>
+         <description>GITHUB job - changed name,Queue in GitHub</description>
          <versioning_id>-1706450110</versioning_id>
       </row>
    </general_attributes>
